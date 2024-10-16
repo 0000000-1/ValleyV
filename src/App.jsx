@@ -13,13 +13,14 @@ function App() {
     setCartOpen(!cartOpen);
   };
 
+console.log(import.meta.env.BASE_URL);
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Main/>} />
-          <Route path="/auth" element={<AuthComponent/>}/>
+          <Route path="auth" element={<AuthComponent/>}/>
         </Routes>
       </BrowserRouter>
     </>

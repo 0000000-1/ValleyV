@@ -7,7 +7,7 @@ const Collection = () => {
       <div className='grid h-full sm:grid-cols-2 md:grid-cols-4 w-full gap-4'>
 
         <div className='img2 relative h-full w-full overflow-hidden'>
-          <img src=" ../src/assets/product1.webp" className='img21 h-full w-full object-contain ' alt="" />
+          <img src={import.meta.env.BASE_URL + "/src/assets/product1.webp"} className='img21 h-full w-full object-contain ' alt="" />
           <div className='before:absolute flex flex-col justify-center items-center h-full w-full
           before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
           absolute top-0'>
@@ -15,7 +15,7 @@ const Collection = () => {
           </div>
         </div>
         <div className='img2 relative h-full w-full overflow-hidden'>
-          <img src=" ../src/assets/product2.webp" className='img21 h-full w-full object-contain ' alt="" />
+          <img src={import.meta.env.BASE_URL +  "/src/assets/product2.webp"} className='img21 h-full w-full object-contain ' alt="" />
           <div className='before:absolute flex flex-col justify-center items-center h-full w-full
           before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
           absolute top-0'>
@@ -23,7 +23,7 @@ const Collection = () => {
           </div>
         </div>
         <div className='img2 relative h-full w-full overflow-hidden'>
-          <img src=" ../src/assets/product3.webp" className='img21 h-full w-full object-contain ' alt="" />
+          <img src={import.meta.env.BASE_URL +  "/src/assets/product3.webp"} className='img21 h-full w-full object-contain ' alt="" />
           <div className='before:absolute flex flex-col justify-center items-center h-full w-full
           before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
           absolute top-0'>
@@ -31,7 +31,7 @@ const Collection = () => {
           </div>
         </div>
         <div className='img2 relative h-full w-full overflow-hidden'>
-          <img src=" ../src/assets/product2.webp" className='img21 h-full w-full object-contain ' alt="" />
+          <img src={import.meta.env.BASE_URL +  "/src/assets/product2.webp"} className='img21 h-full w-full object-contain ' alt="" />
           <div className='before:absolute flex flex-col justify-center items-center h-full w-full
           before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
           absolute top-0'>
@@ -39,7 +39,7 @@ const Collection = () => {
           </div>
         </div>
         <div className='img2 relative h-full w-full overflow-hidden'>
-          <img src=" ../src/assets/product1.webp" className='img21 h-full w-full object-contain ' alt="" />
+          <img src={import.meta.env.BASE_URL +  "/src/assets/product1.webp"} className='img21 h-full w-full object-contain ' alt="" />
           <div className='before:absolute flex flex-col justify-center items-center h-full w-full
           before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
           absolute top-0'>
@@ -47,7 +47,7 @@ const Collection = () => {
           </div>
         </div>
         <div className='img2 relative h-full w-full overflow-hidden'>
-          <img src=" ../src/assets/product3.webp" className='img21 h-full w-full object-contain ' alt="" />
+          <img src={import.meta.env.BASE_URL +  "/src/assets/product3.webp"} className='img21 h-full w-full object-contain ' alt="" />
           <div className='before:absolute flex flex-col justify-center items-center h-full w-full
           before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
           absolute top-0'>
@@ -55,7 +55,7 @@ const Collection = () => {
           </div>
         </div>
         <div className='img2 relative h-full w-full overflow-hidden'>
-          <img src=" ../src/assets/product1.webp" className='img21 h-full w-full object-contain ' alt="" />
+          <img src={import.meta.env.BASE_URL +  "/src/assets/product1.webp"} className='img21 h-full w-full object-contain ' alt="" />
           <div className='before:absolute flex flex-col justify-center items-center h-full w-full
           before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
           absolute top-0'>
@@ -63,7 +63,7 @@ const Collection = () => {
           </div>
         </div>
         <div className='img2 relative h-full w-full overflow-hidden'>
-          <img src=" ../src/assets/product2.webp" className='img21 h-full w-full object-contain ' alt="" />
+          <img src={import.meta.env.BASE_URL +  "/src/assets/product2.webp"} className='img21 h-full w-full object-contain ' alt="" />
           <div className='before:absolute flex flex-col justify-center items-center h-full w-full
           before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
           absolute top-0'>

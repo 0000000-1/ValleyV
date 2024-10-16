@@ -13,7 +13,7 @@ const HeroSection = () => {
     return (
         <div className=' h-screen w-full '>
             <div className='absolute z-[-2] h-full w-full '>
-                <video src="../src/assets/BgIMG_5104.mp4" className='h-screen w-full object-cover' data-type='mp4' autoPlay loop muted playsInline></video>
+                <video src={import.meta.env.BASE_URL + "/src/assets/BgIMG_5104.mp4"} className='h-screen w-full object-cover' data-type='mp4' autoPlay loop muted playsInline></video>
             </div>
             <div >
                 <div className='navbar'>

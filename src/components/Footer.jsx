@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='bg-yellow-500 p-10'>
             <div className='flex sm:flex-col sm:items-center md:flex-row w-full gap-6 lg:gap-0' >
                 <div className='w-[25%] sm:justify-center flex'>
-                    <img src="../src/assets/Valley_culture_logo_black.webp" alt="colorlogo" />
+                    <img src={import.meta.env.BASE_URL + "/src/assets/Valley_culture_logo_black.webp"} alt="colorlogo" />
                 </div>
                 <div className='sm:w-[35%] md:w-[25%] '>
                     <ul className='sm:items-center text-[10px] lg:text-[14px] flex flex-col gap-2'>

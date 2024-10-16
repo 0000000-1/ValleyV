@@ -26,7 +26,7 @@ const Navbar = ({ onCartToggle }) => {
                             <div className='babyshop absolute left-0 hidden flex w-full text-black bg-white justify-center items-start'>
                                 <div className="box flex flex-col justify-center items-start p-4 ">
                                     <div className=' flex gap-1 h-[100px] w-[200px]'>
-                                        <img src="../src/assets/product1.webp" className='img21 object-cover ' alt="" />
+                                        <img src={import.meta.env.BASE_URL + "src/assets/product1.webp"} className='img21 object-cover ' alt="" />
                                     </div>
                                     <h3 className='pb-4 pt-1 text-[14px] tracking-[4px]'>PULSES AND GRAINS</h3>
                                     <p className='text-[12px] pb-2'>Harsil Rajma
@@ -38,7 +38,7 @@ const Navbar = ({ onCartToggle }) => {
                                 </div>
                                 <div className="box flex flex-col justify-center items-start p-4 ">
                                     <div className=' flex gap-1 h-[100px] w-[200px]'>
-                                        <img src="../src/assets/product3.webp" className='img21 object-cover ' alt="" />
+                                        <img src={import.meta.env.BASE_URL + "/src/assets/product3.webp"} className='img21 object-cover ' alt="" />
                                     </div>
                                     <h3 className='pb-4 pt-1 text-[14px] tracking-[4px]'>PULSES AND GRAINS</h3>
                                     <p className='text-[12px] pb-2'>Harsil Rajma
@@ -52,7 +52,7 @@ const Navbar = ({ onCartToggle }) => {
                                 </div>
                                 <div className="box flex flex-col justify-center items-start p-4 ">
                                     <div className=' flex gap-1 h-[100px] w-[200px]'>
-                                        <img src="../src/assets/product2.webp" className='img21 object-cover ' alt="" />
+                                        <img src={import.meta.env.BASE_URL + "/src/assets/product2.webp"} className='img21 object-cover ' alt="" />
                                     </div>
                                     <h3 className='pb-4 pt-1 text-[14px] tracking-[4px]'>PULSES AND GRAINS</h3>
                                     <p className='text-[12px] pb-2'>Harsil Rajma
@@ -62,7 +62,7 @@ const Navbar = ({ onCartToggle }) => {
                                 </div>
                                 <div className="box flex flex-col justify-center items-start p-4 ">
                                     <div className=' flex gap-1 h-[100px] w-[200px]'>
-                                        <img src="../src/assets/product1.webp" className='img21 object-cover ' alt="" />
+                                        <img src={import.meta.env.BASE_URL + "/src/assets/product1.webp"} className='img21 object-cover ' alt="" />
                                     </div>
                                     <h3 className='pb-4 pt-1 text-[14px] tracking-[4px]'>PULSES AND GRAINS</h3>
                                     <p className='text-[12px] pb-2'>Harsil Rajma
@@ -73,7 +73,7 @@ const Navbar = ({ onCartToggle }) => {
                             </div>
                         </li>
                     </ul>
-                    <img src="../src/assets/logoColor.webp" alt="logo" className='px-8' />
+                    <img src={import.meta.env.BASE_URL + "/src/assets/logoColor.webp"} alt="logo" className='px-8' />
                     <ul className='sm:hidden md:flex gap-0 flex flex-col md:flex-row md:gap-2 lg:gap-2 lg:flex-row justify-center items-center'>
                         <li className='md:hidden lg:flex' ><a href="">GIFTING</a></li>
                         <li><a href="">BEST SELLER</a></li>
@@ -82,7 +82,7 @@ const Navbar = ({ onCartToggle }) => {
                 </div>
                 <div className='gap-4 flex'>
                     {/* <span>login</span> */}
-                    <span><a href="/auth">login</a></span>
+                    <span><a href={import.meta.env.BASE_URL + "auth"}>login</a></span>
                     <button className="cart-btn" onClick={onCartToggle}>
                         Cart
                     </button>
