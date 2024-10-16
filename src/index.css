@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar{
+    display: none;
+}
+.box::-webkit-scrollbar{
+    display: none;
+    scrollbar-width: none;
+    scroll-behavior: none;
+}
+.navbar{
+    color:white;
+}
+.minibox{
+    background: white;
+    transition: .5s;
+    width: 300px;
+}
+.minibox:hover{
+    height: 230px;width: 330px;
+}
+
+.shop:hover .babyshop{
+    display: flex;
+}
+.img{
+    display: grid;
+    place-content: center;
+    height:100px;
+    width: 100px;
+}
+.img2:hover .img21{
+    transition-duration: 1s;
+    transform: scale(1.1);
+ 
+}
+  .cart-slideout {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f9f9f9;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+  
+  .cart-open.cart-slideout {
+    transform: translateX(0);
+  }
+  
