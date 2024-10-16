@@ -82,7 +82,7 @@ const Navbar = ({ onCartToggle }) => {
                 </div>
                 <div className='gap-4 flex'>
                     {/* <span>login</span> */}
-                    <span><a href="/auth">login</a></span>
+                    <span><a href={import.meta.env.BASE_URL + "/auth"}>login</a></span>
                     <button className="cart-btn" onClick={onCartToggle}>
                         Cart
                     </button>

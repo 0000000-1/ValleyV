@@ -19,8 +19,8 @@ console.log(import.meta.env.BASE_URL);
     <>
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
-          <Route path={import.meta.env.BASE_URL + "/"} element={<Main/>} />
-          <Route path={import.meta.env.BASE_URL + "/auth"} element={<AuthComponent/>}/>
+          <Route path="/" element={<Main/>} />
+          <Route path="auth" element={<AuthComponent/>}/>
         </Routes>
       </BrowserRouter>
     </>
