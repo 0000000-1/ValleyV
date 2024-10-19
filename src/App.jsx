@@ -17,10 +17,10 @@ console.log(import.meta.env.BASE_URL);
 
   return (
     <>
-      <BrowserRouter basename={import.meta.env.DEV} >
+      <BrowserRouter basename={import.meta.env.BASE_URL ? '/' : '/ValleyV/'}>
         <Routes>
-          <Route path="/" element={<Main/>} />
-          <Route path="/auth" element={<AuthComponent/>}/>
+          <Route path={import.meta.env.BASE_URL + "/"} element={<Main/>} />
+          <Route path={import.meta.env.BASE_URL + "/auth"} element={<AuthComponent/>}/>
         </Routes>
       </BrowserRouter>
     </>
